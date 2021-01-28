@@ -11,6 +11,7 @@ resource "azurerm_resource_group" "main" {
   location = var.location
 
   tags = {
-    "environment" = var.environment
+    #"environment" = var.environment
+    "test" = var.environment
   }
 }
